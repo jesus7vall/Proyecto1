@@ -7,16 +7,31 @@
     <link rel="stylesheet" herf="styles.css" />
 </head>    
 <body>
-    <style>
-        #G{
-            display: grid;
-            grid-template-columns: repeat(auto);
-            gap: 10px;
-        }
+<script src="script.js"></script>
 
-    </style>
+<!-- Formulario para añadir nuevas notas -->
+<form id="note-form">
 
-    <div id="#G">
-        
-    </div>
-</body>    
+    <textarea id="content" name="content" placeholder="Escribe tu nota..." required></textarea>
+
+    <button type="submit">Añadir Nota</button>
+</form>
+
+<style>
+    #board{
+        display: grid;
+        grid-template-columns: repeat(auto);
+        gap: 10px;
+    }
+</style>
+
+<!-- Aquí se mostrarán las notas -->
+<div id="board"></div>
+
+
+
+
+    
+</div>
+</body> 
+</html>   
