@@ -1,6 +1,6 @@
 const formulario = document.getElementById("formulario");//formulario
 const entrada = document.getElementById("entrada");//entrada
-const resultado = document.getElementById("tabla");//resultado
+const tabla = document.getElementById("tabla");//tabla
 
 let notas = JSON.parse(localStorage.getItem("notas")) || [];//Para que recupere los posits guardados
 
