@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Tablero de Post-it</title>
-</head>
+    <meta charset="utf-8" />
+    <meta name="viwport" content="width=device-width,initial-scale=1" />
+    <title>Tablero Post-its</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>    
 <body>
+
 <script src="script.js"></script>
 
 <!-- Formulario para añadir nuevas notas -->
 <form id="formulario">
 
+    <label for="entrada">Tablero de Post-it</label>
     <textarea id="entrada" name="content" placeholder="Escribe tu nota..." required></textarea>
 
     <button type="submit">Añadir Nota</button>
@@ -17,5 +21,6 @@
 
 <!-- Aquí se mostrarán las notas -->
 <div id="tabla"></div>
-</body>
-</html>
+
+    
+</body>    
