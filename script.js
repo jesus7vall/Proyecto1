@@ -3,9 +3,11 @@ const entrada = document.getElementById("entrada");//entrada
 const tabla = document.getElementById("tabla");//tabla
 
 let notas = JSON.parse(localStorage.getItem("notas")) || [];//Para que recupere los posits guardados
+console.log("Notas cargadas:", notas);
 
 function guardarNotas() {
   localStorage.setItem("notas", JSON.stringify(notas));
+  console.log("Se guardan las notas:", notas);
 } //Funcion guardar en LocalStorage
 
 //Funcion mostrar notas
@@ -51,5 +53,4 @@ formulario.addEventListener("submit", (e) => {
   formulario.reset();  // Limpiamos el formulario
 });
 
-//Mostramos las notas mediante la funcion
-mostrarNotas();
+
