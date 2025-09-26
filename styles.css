@@ -31,9 +31,13 @@ button{
     border-radius: 4px;
     cursor: pointer;
 }
-
-.tabla{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
+.tabla {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.nota {
+  background: rgb(216, 231, 2);
+  padding: 20px;
+  border: 1px solid #333;
 }
