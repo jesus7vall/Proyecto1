@@ -53,4 +53,6 @@ formulario.addEventListener("submit", (e) => {
   formulario.reset();  // Limpiamos el formulario
 });
 
+mostrarNotas();
+
 
